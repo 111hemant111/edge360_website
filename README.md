@@ -1,2 +1,2 @@
-# edge360_website
+# EDGE360 Website
  
