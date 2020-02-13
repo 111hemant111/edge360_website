@@ -129,9 +129,9 @@
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
-          <div class="col-md-4">
+          <div>
             <div class="text-center">
-                <h2>Testing Webform</h2>
+                <h2 id="bapaasTitle">Testing Webform</h2>
             </div>
           </div>
           <form action="" method="post" role="form" class="contactForm">
@@ -153,40 +153,46 @@
               <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Project Scope"></textarea>
               <div class="validation"></div>
             </div>
-            <form action="myform.cgi"> <input type="file" name="fileupload" value="fileupload" id="fileupload"> <label for="fileupload"> Select files to upload</label>  </form>
+            <form action="myform.cgi"> 
+                <label class="uploadStyle" for="fileupload">Upload a file
+                    <input id="fileupload" type="file" /> 
+                </label>
+                <label for="fileupload"> Select files to upload</label>  
+            </form>
 
             <br style=“line-height:N;”> 
+              
             <div class="text-left">
               <h5>Functional Testing</h5>
             </div>
-            
-            <div class=""><input type="checkbox">  Unit Testing</div>
-            <div class=""><input type="checkbox">  Integeration Testing</div>
-            <div class=""><input type="checkbox">  System Testing</div>
-            <div class=""><input type="checkbox">  Sanity Testing</div>
-            <div class=""><input type="checkbox">  Smoke Testing</div>
-            <div class=""><input type="checkbox">  Interface Testing</div>
-            <div class=""><input type="checkbox">  Regression Testing</div>
-            <div class=""><input type="checkbox">  Beta/Acceptance Testing</div>
-            
+            <div class="allChecks">
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Unit Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Integeration Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;System Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Sanity Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Smoke Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Interface Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Regression Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Beta/Acceptance Testing</div>
+            </div>
             <br style=“line-height:N;”> 
             <div class="text-left">
               <h5>Non-Functional Testing</h5>
             </div>
-            
-            <div class=""><input type="checkbox">  Performance</div>
-            <div class=""><input type="checkbox">  Load Testing</div>
-            <div class=""><input type="checkbox">  Stress Testing</div>
-            <div class=""><input type="checkbox">  Volume Testing</div>
-            <div class=""><input type="checkbox">  Security Testing</div>
-            <div class=""><input type="checkbox">  Compatibility Testing</div>
-            <div class=""><input type="checkbox">  Install Testing</div>
-            <div class=""><input type="checkbox">  Recovery Testing</div>
-            <div class=""><input type="checkbox">  Reliability Testing</div>
-            <div class=""><input type="checkbox">  Usability Testing</div>
-            <div class=""><input type="checkbox">  Compliance Testing</div> 
-            <div class=""><input type="checkbox">  Localization Testing</div>
-            
+            <div class="allChecks">
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Performance</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Load Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Stress Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Volume Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Security Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Compatibility Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Install Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Recovery Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Reliability Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Usability Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Compliance Testing</div> 
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Localization Testing</div>
+            </div>
    
               
             <div class="text-center"><button type="submit">Submit</button></div>

@@ -1350,6 +1350,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #13a456;
 }
 
+#bapaasTitle {
+    padding-bottom: 30px;
+}
+
+.allChecks {
+    padding-left: 15px;
+}
+
+input[type="file"] {
+    display: none;
+}
+.uploadStyle {
+  background: #db2137;
+  border: 0;
+  padding: 10px 40px 10px 40px;
+    margin:20px;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1485,6 +1508,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 6px 8px;
   width: 65%;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+  background: #db2137;
+  border: 0;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
