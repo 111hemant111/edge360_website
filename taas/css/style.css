@@ -1347,7 +1347,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #bf2437;
 }
 
 #bapaasTitle {
@@ -1355,7 +1355,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .allChecks {
-    padding-left: 15px;
+    padding-left: 3px;
 }
 
 input[type="file"] {
@@ -1365,7 +1365,7 @@ input[type="file"] {
   background: #db2137;
   border: 0;
   padding: 10px 40px 10px 40px;
-    margin:20px;
+    margin:20px 20px 20px 0px;
   text-align: center;
   color: #fff;
   transition: 0.3s;
@@ -1533,7 +1533,7 @@ input[type="file"] {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #13a456;
+  background: #bf2437;
 }
 
 #footer .copyright {

@@ -137,23 +137,119 @@
           <form action="" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="First Name" data-rule="minlen:4" data-msg="Please enter a name" />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="text" class="form-control" name="name" id="email" placeholder="Last Name" data-rule="minlen:4" data-msg="Please enter a name" />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Organization" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="email" class="form-control" name="email" id="subject" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Project Scope"></textarea>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Organization" data-rule="minlen:4" data-msg="Please enter an organization name" />
               <div class="validation"></div>
             </div>
-            <form action="myform.cgi"> 
+            <div class="form-group">
+                <label for="current needs">Describe Current Issues/Needs:</label><br>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" ></textarea>
+              </div>
+              <div class="form-group">
+            <label for="current system">Describe current system: </label><br>
+            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              </div>
+            
+            <!-- software type list drop down menu -->
+            <div class="form-group">
+            <label for="Software Type">Software Type:</label><br>
+                <input list="software" name="software">
+                  <datalist id="software">
+                    <option value="Accounting and Financial Management">
+                    <option value="Asset Management"> 
+                    <option value="Business Intelligence and Data Management"> 
+                    <option value="Customer Relationship Management (CRM)">
+                    <option value="Enterprise Resource Planning (ERP)"> 
+                    <option value="Human Capital Management (HCM)"> 
+                    <option value="Information Management and Collaboration"> 
+                    <option value="Product Lifecycle Management (PLM)"> 
+                    <option value="Project and Process Management"> 
+                    <option value="Supply Chain Management (SCM)"> 
+                    </datalist>
+             </div>   
+                
+            <!-- Industry drop down menu -->
+            <div class="form-group">
+            <label for="Industry">Industry:</label><br>
+                <input list="Industry" name="Industry">
+                  <datalist id="Industry">                      
+                    <option value="Aerospace">
+                    <option value="Business Services and Consulting"> 
+                    <option value="Chemical Products"> 
+                    <option value="Computer, IT, and Software"> 
+                    <option value="Construction"> 
+                    <option value="Education">
+                    <option value="Electronics and High-tech Components"> 
+                    <option value="Engineering and Architecture">
+                    <option value="Finance and Banking">
+                    <option value="Food and Beverage Products">
+                    <option value="Health Care and Social Work"> 
+                    <option value="Insurance">
+                    <option value="Manufacturing"> 
+                    <option value="Wholesale and Retail Trade"> 
+                    <option value="Utilities"> 
+                    <option value="Transportation and Warehousing">
+                    <option value="Textile and Apparel">
+                    <option value="Telecommunications">
+                    <option value="Publishing and Media">
+                    <option value="Primary Metal Manufacturing"> 
+                    <option value="Petrochemical Manufacturing"> 
+                    <option value="Oil and Gas">
+                    <option value="Motor Vehicles">
+                    <option value="Mining &amp; Quarrying">
+                  </datalist>                
+            </div>    
+                
+            <!-- Business Area drop down menu -->
+            <div class="form-group">
+                <label for="BusinessArea">Business Area:</label><br>
+                <input list="BusinessArea" name="BusinessArea">
+                  <datalist id="BusinessArea">                      
+                    <option value="Sales and Marketing">
+                    <option value="Professional Services and Support">
+                    <option value="Production and Distribution">
+                    <option value="IT Management and Development">
+                    <option value="Data Management and Analysis"> 
+                    <option value="Back Office and Operations">
+                  </datalist>
+            </div>
+              
+                <div class="from-group">
+                <label for="Req">Describe the needed  requirements, functionality, or specifications:</label><br> 
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea><br>
+              </div>
+              
+               <div class="from-group">
+                <label for="deliverables">Desired deliverables:</label><br> 
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea><br>
+              </div>
+              
+              <div class="form-group">
+                <label for="DoDDate">Estimated Date of Delivery: </label><br>
+                <input type="date" id="DoDDate" name="DoDDate">
+              </div>
+              
+              <div class="form-group">
+                <label for="budget">Budget (CAD $): </label><br>
+                <input type="number" id="budget" name="budget" >
+              </div>
+              
+                <div class="validation"></div>
+            
+            
+            <form action="myform.cgi">
                 <label class="uploadStyle" for="fileupload">Upload a file
                     <input id="fileupload" type="file" /> 
                 </label>
@@ -162,37 +258,7 @@
 
             <br style=“line-height:N;”> 
               
-            <div class="text-left">
-              <h5>Functional Testing</h5>
-            </div>
-            <div class="allChecks">
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Unit Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Integeration Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;System Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Sanity Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Smoke Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Interface Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Regression Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Beta/Acceptance Testing</div>
-            </div>
-            <br style=“line-height:N;”> 
-            <div class="text-left">
-              <h5>Non-Functional Testing</h5>
-            </div>
-            <div class="allChecks">
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Performance</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Load Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Stress Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Volume Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Security Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Compatibility Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Install Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Recovery Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Reliability Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Usability Testing</div>
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Compliance Testing</div> 
-            <div class=""><input type="checkbox">  &nbsp;&nbsp;Localization Testing</div>
-            </div>
+            
    
               
             <div class="text-center"><button type="submit">Submit</button></div>
