@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #bf2437;
+  color: #18d36e;
   outline: none;
   text-decoration: none;
 }
@@ -1347,7 +1347,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #bf2437;
+  background: #13a456;
 }
 
 #bapaasTitle {
@@ -1373,16 +1373,6 @@ input[type="file"] {
 
 }
 
-input[type="text"] {
-    margin: 6px 6px 6px 0px;
-}
-
-input[type="email"] {
-    margin: 6px 6px 6px 0px;
-}
-textarea {
-    margin: 6px 6px 6px 0px;
-}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1543,7 +1533,7 @@ textarea {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #bf2437;
+  background: #13a456;
 }
 
 #footer .copyright {

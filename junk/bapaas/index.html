@@ -137,84 +137,63 @@
           <form action="" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" placeholder="First Name" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  
+                <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" placeholder="Last Name" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
             </div>
-              <div class="form-group"> 
-              <input type="text" placeholder="Email" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Organization" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               <div class="validation"></div>
             </div>
-            <div class="form-group"> What is the problem this proposed solution is trying to solve?
-              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Project Scope"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="form-group"> How might this solution meet this business need?
-              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> How is this solution different from existing solutions?
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" ></textarea>
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> Where does the process of prototyping start?
-              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> Which platform does the proposed solution work on?
-              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> Where would the user be located physically when using this?
-              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> When do you plan to deploy this solution?
-              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> What are the drawbacks of using this solution?
-              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> What are the individual steps taken to develop this solution along with individual timeframes?
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" ></textarea>
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> Who is the target user of this solution?
-              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> Detailed explanation of the functionality of this solution:
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" ></textarea>
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> What are the individual steps taken to develop this solution along with individual timeframes?
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" ></textarea>
-              <div class="validation"></div>
-            </div>
-              <div class="form-group"> What are the scenarios in which this solution underperforms/fails?
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-              <div class="validation"></div>
-            </div>
-              
-            <div class="form-group">Additional Comments:
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-              <div class="validation"></div>
-            </div>
-            <form action="myform.cgi"> Attach relevant documents:
+            <form action="myform.cgi"> 
                 <label class="uploadStyle" for="fileupload">Upload a file
                     <input id="fileupload" type="file" /> 
                 </label>
-                <label for="fileupload"> </label>  
+                <label for="fileupload"> Select files to upload</label>  
             </form>
 
             <br style=“line-height:N;”> 
+              
+            <div class="text-left">
+              <h5>Functional Testing</h5>
+            </div>
+            <div class="allChecks">
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Unit Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Integeration Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;System Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Sanity Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Smoke Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Interface Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Regression Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Beta/Acceptance Testing</div>
+            </div>
+            <br style=“line-height:N;”> 
+            <div class="text-left">
+              <h5>Non-Functional Testing</h5>
+            </div>
+            <div class="allChecks">
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Performance</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Load Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Stress Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Volume Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Security Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Compatibility Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Install Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Recovery Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Reliability Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Usability Testing</div>
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Compliance Testing</div> 
+            <div class=""><input type="checkbox">  &nbsp;&nbsp;Localization Testing</div>
+            </div>
+   
               
             <div class="text-center"><button type="submit">Submit</button></div>
           </form>
@@ -290,7 +269,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
         -->
-        Designed by <a href="https://bootstrapmade.com/">SMART360</a>
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- #footer -->
