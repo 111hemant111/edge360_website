@@ -306,17 +306,19 @@ h6 {
 }
 
 .cgi-logo {
-/*    padding: 40px;*/
-/*    image-resolution: 40px;*/
-    max-width: 25px;
-/*    margin: 10px;*/
-
+    max-width: 58px;
+    padding-top: 10px;
 }
 
-/*--------------
+#cgi-logo-id {
+    padding-top: 4px;
+    margin-right: -48px; 
+}
+
+/*----------------------------------------------
 ------------------------------------------------
 # Navigation Menu
---------------------------------------------------------------*/
+----------------------------------------------*/
 
 /* Nav Menu Essentials */
 
@@ -1495,7 +1497,7 @@ br {
 /*    display: inline;*/
     text-align: center;
     padding-left: 110px;
-    padding-right: 253px;
+    padding-right: 360px;
     padding-bottom: 40px;
 }
 
