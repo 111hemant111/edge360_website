@@ -734,6 +734,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
+    text-align: center;
 }
 
 /* Services Section
@@ -920,17 +921,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: left;
 }
 
-#p1 li {
+#p1 > .col-lg-12 a:last-child>li {
   background: #ffbf29;
 }
 
-#p2 li {
+#p2 > .col-lg-12 a:last-child>li {
   background: #ffbf29;
 }
 
 #p3 li {
   background: #8ef00e;
-/*  color: white;*/
 }
 
 .kanban-stages {
