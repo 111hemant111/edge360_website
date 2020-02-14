@@ -305,9 +305,20 @@ h6 {
   color: #db2137;
 }
 
-/*--------------------------------------------------------------
+.cgi-logo {
+    max-width: 58px;
+    padding-top: 10px;
+}
+
+#cgi-logo-id {
+    padding-top: 4px;
+    margin-right: -48px; 
+}
+
+/*----------------------------------------------
+------------------------------------------------
 # Navigation Menu
---------------------------------------------------------------*/
+----------------------------------------------*/
 
 /* Nav Menu Essentials */
 
@@ -734,6 +745,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
+    text-align: center;
 }
 
 /* Services Section
@@ -920,17 +932,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: left;
 }
 
-#p1 li {
+#p1 > .col-lg-12 a:last-child>li {
   background: #ffbf29;
 }
 
-#p2 li {
+#p2 > .col-lg-12 a:last-child>li {
   background: #ffbf29;
 }
 
 #p3 li {
   background: #8ef00e;
-/*  color: white;*/
 }
 
 .kanban-stages {
@@ -1486,7 +1497,7 @@ br {
 /*    display: inline;*/
     text-align: center;
     padding-left: 110px;
-    padding-right: 253px;
+    padding-right: 360px;
     padding-bottom: 40px;
 }
 
