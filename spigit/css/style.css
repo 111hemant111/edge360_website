@@ -1369,10 +1369,11 @@ br {
 --------------------------------*/
 
 #contact {
-  padding: 60px 400px;
+  padding: 60px 60px 60px 60px ;
     text-align: center;
 }
-
+    
+}
 #contact .contact-info {
   margin-bottom: 20px;
   text-align: center;
