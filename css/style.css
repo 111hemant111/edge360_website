@@ -597,7 +597,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header p {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   color: #333;
 }
 
@@ -1380,7 +1380,10 @@ br {
 --------------------------------*/
 
 #contact {
-  padding: 60px 400px;
+/*  padding: 60px 400px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
     text-align: center;
 }
 
