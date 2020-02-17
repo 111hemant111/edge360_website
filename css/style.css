@@ -941,7 +941,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #p3 li {
-  background: #8ef00e;
+  background: #75b783;
 }
 
 .kanban-stages {
@@ -960,8 +960,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 40px;
   width: 160px;
-  color: #666666;
-  border-radius: 4px;
+  color: #444444;
+  border-radius: 2px;
   font-weight: 500;
   background: #fff;
   margin-bottom: 5px;
@@ -970,23 +970,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #p1 li:nth-child(1){
-    background: #8ef00e;
+    background: #75b783;
 }
 
 #p1 li:nth-child(2){
-    background: #8ef00e;
+    background: #75b783;
 }
 
 #p2 li:nth-child(1){
-    background: #8ef00e;
+    background: #75b783;
 }
 
 #p2 li:nth-child(2){
-    background: #8ef00e;
+    background: #75b783;
 }
 
 #p2 li:nth-child(3){
-    background: #8ef00e;
+    background: #75b783;
 }
 
 br {
@@ -1001,10 +1001,10 @@ br {
   font-size: 15px;
   line-height: 30px;
   width: 160px;
-  color: #fff;
-  border-radius: 4px;
+  color: #eeeeee;
+  border-radius: 2px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
   background: black;
   margin-bottom: 0px;
   transition: all 0.3s ease-in-out;
@@ -1470,6 +1470,7 @@ br {
   border-radius: 0;
   box-shadow: none;
   font-size: 15px;
+    border-radius: 2px;
 }
 
 /*
@@ -1492,12 +1493,14 @@ br {
   transition: 0.4s;
   cursor: pointer;
   text-align: center;
+    border-radius: 2px;
     
 }
 
 
 #contact .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #75b783;
+    border-radius: 2px;
 }
 
 #thistoo {
@@ -1514,6 +1517,20 @@ br {
 */
 }
 
+
+/*TEAM*/
+
+input[type="submit", name = "", value="Team members"] {
+  background: #db2137;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+  text-align: center;
+    border-radius: 2px;
+    
+}
 
 /*--------------------------------------------------------------
 # Footer
@@ -1650,6 +1667,7 @@ br {
   border: 0;
   padding: 6px 8px;
   width: 65%;
+    border-radius: 2px;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
@@ -1661,10 +1679,12 @@ br {
   color: #fff;
   transition: 0.3s;
   cursor: pointer;
+    border-radius: 2px;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
   background: #13a456;
+    border-radius: 2px;
 }
 
 #footer .copyright {
