@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #18d36e;
+  color: #ff001e;
   outline: none;
   text-decoration: none;
 }
@@ -1480,7 +1480,7 @@ br {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #db2137;
 }
 
 .form { 
@@ -1641,7 +1641,7 @@ br {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #13a456;
+  background: #db2137;
 }
 
 #footer .copyright {
