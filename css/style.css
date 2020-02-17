@@ -1520,7 +1520,7 @@ br {
 
 /*TEAM*/
 
-input[type="submit", name = "", value="Team members"] {
+#teamButton {
   background: #db2137;
   border: 0;
   padding: 10px 40px;
