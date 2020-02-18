@@ -668,7 +668,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.8);
   z-index: 9;
 }
 
@@ -893,7 +893,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.74);
   z-index: 9;
 }
 
@@ -1325,17 +1325,13 @@ br {
   color: #db2137;
 }
 
-#kr .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #111;
-}
-
 #kr .facts-img {
   text-align: center;
   padding-top: 30px;
+}
+
+#kr .section-header{
+    margin-top: 50px;
 }
 
 #kr .krButton{
@@ -1345,6 +1341,8 @@ br {
 #kr .form input {
     background: #db2137;
   border: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
   padding: 10px 40px;
   color: #fff;
   transition: 0.4s;
@@ -1531,6 +1529,14 @@ br {
   font-size: 13px;
 }
 
+#contact .section-header {
+    margin-top: 50px;
+}
+
+#contact h3{
+    margin-bottom: 40px;
+}
+
 #contact .form input,
 #contact .form textarea {
   padding: 10px 14px;
@@ -1582,6 +1588,7 @@ br {
 
 #iniButtonDiv {
     text-align: center;
+    font-size: 15px;
     padding: 30px 0px 10px 0px;
 }
 #teamButtonDiv {
