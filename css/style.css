@@ -1291,6 +1291,73 @@ br {
   background-color: #db2137;
 }
 
+/* Knowledge Repo Section
+--------------------------------*/
+
+#kr {
+  background: url("../img/kr-bg-2.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 0 0;
+  position: relative;
+}
+
+#kr::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 9;
+}
+
+#kr .container {
+  position: relative;
+  z-index: 10;
+}
+
+#kr .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #db2137;
+}
+
+#kr .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #111;
+}
+
+#kr .facts-img {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#kr .krButton{
+    align-content: center;
+    text-align: center;
+}
+#kr .form input {
+    background: #db2137;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+  text-align: center;
+    border-radius: 0;
+    font-size: 15px;
+    box-shadow: none;
+  align-content: center;
+
+}
+
+
 /* Team Section
 --------------------------------*/
 
