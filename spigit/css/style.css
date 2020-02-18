@@ -1521,7 +1521,7 @@ br {
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
-    left: 38%;
+    left: 40%;
     right: 62%;
 }
 
@@ -1534,7 +1534,7 @@ br {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #db2137;
+/*  border-top: 4px solid #db2137;*/
 }
 
 
