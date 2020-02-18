@@ -1476,6 +1476,9 @@ br {
   transition: 0.4s;
   cursor: pointer;
   text-align: center;
+  border-radius: 2px;
+  align-content: center;
+    width: 250px;
     
 }
 
@@ -1496,6 +1499,12 @@ br {
 # Footer
 --------------------------------------------------------------*/
 
+#footerDiv {
+/*    text-align: center;*/
+    align-content: center;
+    align-items: center;
+}
+
 #footer {
   background: #000;
   padding: 0 0 30px 0;
@@ -1506,6 +1515,8 @@ br {
 #footer .footer-top {
   background: #111;
   padding: 60px 60px 60px 60px;
+  padding: 60px 0 30px 0;
+
 }
 
 #footer .footer-top .footer-info {
