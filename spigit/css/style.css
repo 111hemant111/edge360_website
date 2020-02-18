@@ -20,6 +20,10 @@ a {
   transition: 0.5s;
 }
 
+#pdtMenu {
+    text-align: center;
+}
+
 a:hover,
 a:active,
 a:focus {
