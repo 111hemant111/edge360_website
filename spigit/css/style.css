@@ -655,7 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("../../img/innovation-lightbulb.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -668,7 +668,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.84);
   z-index: 9;
 }
 
@@ -1380,6 +1380,44 @@ br {
 --------------------------------*/
 
 #contact {
+  background: url("../../img/innovation-lightbulb.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+#contact::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.84);
+  z-index: 9;
+}
+
+#contact .container {
+  position: relative;
+  z-index: 10;
+}
+
+#contact .about-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+#contact .about-col .img {
+  position: relative;
+}
+
+#contact .about-col .img img {
+  border-radius: 4px 4px 0 0;
+}
+
+#contact {
   padding: 60px 60px 60px 60px ;
     text-align: center;
 }
@@ -1462,7 +1500,7 @@ br {
 #contact .form input,
 #contact .form textarea {
   padding: 10px 14px;
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: none;
   font-size: 15px;
 }
