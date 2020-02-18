@@ -33,6 +33,7 @@ p {
   margin: 0 0 30px 0;
 }
 
+
 h1,
 h2,
 h3,
@@ -43,6 +44,16 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+}
+
+.cgi-logo {
+    max-width: 58px;
+    padding-top: 10px;
+}
+
+#cgi-logo-id {
+    padding-top: 4px;
+    margin-right: -48px; 
 }
 
 /* Back to top button */
@@ -1471,13 +1482,13 @@ br {
 #contact .form input {
   background: #db2137;
   border: 0;
-  padding: 10px 40px;
+/*  padding: 10px 40px;*/
   color: #fff;
   transition: 0.4s;
   cursor: pointer;
   text-align: center;
   border-radius: 2px;
-  align-content: center;
+/*  align-content: center;*/
     width: 250px;
     
 }
@@ -1488,11 +1499,28 @@ br {
 
 .form { 
 /*    display: inline;*/
-    text-align: center;
+/*    text-align: center;*/
+/*
     padding-left: 110px;
     padding-right: 253px;
-    padding-bottom: 40px;
+*/
+/*    margin-left: 0px;*/
+   
 }
+
+#bt1 {
+    margin-right: 100px;
+}
+
+#thisone {
+/*    margin-left: 0px;*/
+/*    width: 600px;*/
+     padding-bottom: 40px;
+    align-content: center;
+    
+}
+
+
 
 
 /*--------------------------------------------------------------
@@ -1520,7 +1548,7 @@ br {
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
     left: 40%;
     right: 62%;
 }
@@ -1654,6 +1682,7 @@ br {
   color: #fff;
   transition: 0.3s;
   cursor: pointer;
+    border-radius: 2px;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {

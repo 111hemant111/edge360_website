@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #18d36e;
+  color: #ff001e;
   outline: none;
   text-decoration: none;
 }
@@ -304,6 +304,12 @@ h6 {
   background: #fff;
   color: #db2137;
 }
+
+/*
+.servicesImages {
+    height: 200px;
+}
+*/
 
 .cgi-logo {
     max-width: 58px;
@@ -1338,7 +1344,7 @@ br {
     align-content: center;
     text-align: center;
 }
-#kr .form input {
+#kr input {
     background: #db2137;
   border: 0;
     margin-top: 20px;
@@ -1348,10 +1354,11 @@ br {
   transition: 0.4s;
   cursor: pointer;
   text-align: center;
-    border-radius: 0;
+    border-radius: 2px;
     font-size: 15px;
     box-shadow: none;
   align-content: center;
+    width: 200px;
 
 }
 
@@ -1589,7 +1596,7 @@ br {
 #iniButtonDiv {
     text-align: center;
     font-size: 15px;
-    padding: 30px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
 #teamButtonDiv {
     text-align: center;
@@ -1605,14 +1612,14 @@ br {
 #iotglobalDiv input{
     background: #db2137;
   border: 0;
-  padding: 10px 40px;
+  padding: 10px;
   color: #fff;
   transition: 0.4s;
   cursor: pointer;
   text-align: center;
   border-radius: 2px;
   align-content: center;
-    width: 250px;
+    width: 200px;
 }
 
 #iniButtonDiv input {
@@ -1625,7 +1632,7 @@ br {
   text-align: center;
   border-radius: 2px;
   align-content: center;
-    width: 250px;
+    width: 200px;
 }
 
 #teamButtonDiv input{
@@ -1638,7 +1645,7 @@ br {
   text-align: center;
   border-radius: 2px;
   align-content: center;
-  width: 250px;
+  width: 200px;
 }
 
 #excelButtonDiv input{
@@ -1651,7 +1658,7 @@ br {
   text-align: center;
   border-radius: 2px;
   align-content: center;
-    width: 250px;
+    width: 200px;
 }
 
 
@@ -1659,6 +1666,12 @@ br {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+#footerDiv {
+/*    text-align: center;*/
+    align-content: center;
+    align-items: center;
+}
 
 #footer {
   background: #000;
@@ -1669,12 +1682,17 @@ br {
 
 #footer .footer-top {
   background: #111;
+  padding: 60px 60px 60px 60px;
   padding: 60px 0 30px 0;
+
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+    left: 40%;
+    right: 62%;
 }
+
 
 #footer .footer-top .footer-info h3 {
   font-size: 34px;
@@ -1684,8 +1702,10 @@ br {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #db2137;
+/*  border-top: 4px solid #db2137;*/
 }
+
+
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
@@ -1791,7 +1811,6 @@ br {
   border: 0;
   padding: 6px 8px;
   width: 65%;
-    border-radius: 2px;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
@@ -1807,8 +1826,7 @@ br {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #13a456;
-    border-radius: 2px;
+  background: #db2137;
 }
 
 #footer .copyright {
